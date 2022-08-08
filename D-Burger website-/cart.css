@@ -1,0 +1,227 @@
+:root {
+  --red: #e74c3c;
+  --black: #333;
+  --white: #fff;
+  --light-bg: #f5f5f5;
+  --light-color: #666;
+  --border: 0.1rem solid var(--light-color);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7.5rem;
+}
+
+.navbar {
+  font-size: 1.8rem;
+  background-color: black;
+}
+
+.cart-page {
+  margin: 80px auto;
+  font-size: 1.8rem;
+}
+
+h3 {
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: white;
+  background: #ff523b;
+  font-weight: normal;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a {
+  color: #ff523b;
+  font-size: 12px;
+}
+
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table {
+  border-top: 3px solid #ff523b;
+  width: 100%;
+  max-width: 400px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+.order .btn {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .cart-info p {
+    display: none;
+  }
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--red);
+}
+
+section {
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  color: var(--white);
+  background-color: var(--red);
+  cursor: pointer;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: var(--black);
+}
+
+.order form {
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.order form .display-orders {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 3rem 2rem;
+  background-color: var(--light-bg);
+  border-radius: 0.5rem;
+}
+
+.order form .display-orders p {
+  font-size: 2rem;
+  color: var(--light-color);
+  background-color: var(--white);
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.order form .display-orders p span {
+  color: var(--red);
+}
+
+.order form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.order form .flex .inputBox {
+  width: 49%;
+}
+
+.order form .flex .inputBox span {
+  font-size: 1.8rem;
+  color: var(--light-color);
+}
+
+.order form .flex .inputBox .box {
+  width: 100%;
+  background-color: var(--light-bg);
+  padding: 1.4rem;
+  font-size: 1.8rem;
+  color: var(--black);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+
+
+
+
+
+
+#customizeSectionTable th{
+  background: #5e1a2b;
+
+}
+#totalPriceofCustomize{
+  border-top: 3px solid #5e1a2b;
+}
+

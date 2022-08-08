@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="customize.css">
+    <link rel="stylesheet" href="cart.css">
+    <!-- <link rel="stylesheet" href="cartdev.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba013515de.js" crossorigin="anonymous"></script>
+    <title>D-BURGERS | CART</title>
+</head>
+
+<body>
+
+
+    <!-- --------------------------nav bar---------------------- -->
+    <div class="navbar">
+        <div class="logo">
+            <h3>D-BURGERS</h3>
+
+        </div>
+        <nav>
+            <ul id="menu-items">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">About</a></li>
+                <li><a href="./index.html">Contact</a></li>
+                <li><a href="./index.html">Menu</a></li>
+            </ul>
+        </nav>
+        <div class="cartimage">
+
+            <img src="/images/cart.png" alt="" width="30px">
+            <i class="fas fa-bars" id="menubtn"></i>
+        </div>
+    </div>
+
+    <!-- --------------------------nav bar---------------------- -->
+
+
+
+    <!-- --------------------------------cart items details------------------------------- -->
+
+    <div class="small-container cart-page">
+
+        <table>
+            <tbody>
+
+                <tr>
+                    <th>product</th>
+                    <th>Quantity</th>
+                    <th>subtotal</th>
+                </tr>
+
+
+                <table class="billtable" id="itemstable">
+
+
+                </table>
+
+                
+                <div class="total-price">
+                    <table>
+                        <tr>
+                            <td>subtotal</td>
+                            <td id="subtotal">$</td>
+                        </tr>
+                        <tr>
+                            <td>tax</td>
+                            <td id="tax">$35</td>
+                        </tr>
+                        <tr>
+                            <td>total</td>
+                            <td id="grandtotal">$</td>
+                        </tr>
+                    </table>
+                </div>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<!-- this is for a customize burger -->
+    <div class="small-container cart-page">
+
+        <table id="customizeSectionTable">
+            <tbody>
+
+                <tr>
+                    <th>product</th>
+                    <th>Quantity</th>
+                    <th>subtotal</th>
+                </tr>
+
+
+                <table class="billtable" id="customizeTable">
+
+
+                </table>
+
+
+
+                <div class="total-price" >
+                    <table id="totalPriceofCustomize">
+                        <tr>
+                            <td>subtotal</td>
+                            <td id="C-subtotal">$</td>
+                        </tr>
+                        <tr>
+                            <td>tax</td>
+                            <td id="tax">$45</td>
+                        </tr>
+                        <tr>
+                            <td>total</td>
+                            <td id="C-grandtotal">$</td>
+                        </tr>
+                    </table>
+                </div>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="order" id="order">
+
+        <h1 class="heading">order now</h1>
+
+        <form action="" method="post">
+
+
+            <div class="flex">
+                <div class="inputBox">
+                    <span>your name :</span>
+                    <input type="text" name="name" class="box" required placeholder="enter your name" maxlength="20">
+                </div>
+                <div class="inputBox">
+                    <span>your number :</span>
+                    <input type="number" name="number" class="box" required placeholder="enter your number" min="0">
+                </div>
+                <div class="inputBox">
+                    <span>payment method</span>
+                    <select name="method" class="box">
+                        <option value="cash on delivery">cash on delivery</option>
+                        <option value="credit card">credit card</option>
+                        <option value="paytm">paytm</option>
+                        <option value="paypal">paypal</option>
+                    </select>
+                </div>
+                <div class="inputBox">
+                    <span>address line 01 :</span>
+                    <input type="text" name="flat" class="box" required placeholder="e.g. flat no." maxlength="50">
+                </div>
+                <div class="inputBox">
+                    <span>address line 02 :</span>
+                    <input type="text" name="street" class="box" required placeholder="e.g. street name."
+                        maxlength="50">
+                </div>
+                <div class="inputBox">
+                    <span>pin code :</span>
+                    <input type="number" name="pin_code" class="box" required placeholder="e.g. 123456" min="0">
+                </div>
+            </div>
+
+            <input type="submit" value="order now" class="btn" name="order">
+
+        </form>
+
+    </section>
+
+
+</body>
+<script src="./cartcheckout.js"></script>
+
+</html>

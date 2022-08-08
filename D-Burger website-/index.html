@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="cart.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba013515de.js" crossorigin="anonymous"></script>
+    <title>D-BURGERS | FOOD Website</title>
+</head>
+
+<body>
+
+    <div class="message">
+    </div>
+
+    <div class="header">
+
+        <div class="container">
+
+            <!-- --------------------------nav bar---------------------- -->
+            <div class="navbar">
+                <div class="logo">
+                    <h3>D-BURGERS</h3>
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="./cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    </ul>
+                </nav>
+                <div class="cartimage">
+
+                    <!-- <img src="/burgers - Copy/images/cart.png" alt="" width="30px"> -->
+                    <i class="fas fa-bars" id="menubtn"></i>
+                    <!-- <i class="fas fa-shopping-cart" ></i> -->
+
+                </div>
+            </div>
+
+            <!-- --------------------------nav bar---------------------- -->
+
+            <!-- --------------------------intro section---------------------- -->
+
+            <div class="row">
+                <div class="col-2">
+                    <h1>Hello Burgers <br> Welcome to D-Burger's Land</h1>
+                    <p class="intropara">Pouring Love In Every Bite You Take To Make Your Burger Extra Better Then Your
+                        Last One</p>
+                    <a href="#intro" class="btn" id="ordernowBTN">ORDER NOW &#8594;</a>
+                </div>
+                <div class="col-2 imagesection">
+                    <img src="/images/background.jpg" alt="">
+                </div>
+            </div>
+            <!-- --------------------------intro section end ---------------------- -->
+
+
+
+        </div>
+    </div>
+
+    <!----------------------------top rated products section ------------------------->
+    <div class="small-container" id="intro">
+
+        <h2 class="title-featured-products">Top Rated Burgers</h2>
+
+        <div class="row">
+
+            <div class="col-4">
+                <img src="/images/b5.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">chicken Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">50.00</p>
+                <input type="number" value="1" min="1" max="50" class="quantity">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/b6.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">veg Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">100.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/b7.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">hotdog Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">50.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/b9.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">grilled chicken</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">200.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+        </div>
+
+
+        <h2 class="title-featured-products">Beverages</h2>
+
+        <div class="row">
+
+            <div class="col-4">
+                <img src="/images/beverage-1.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Oreo Shake</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">50.00</p>
+                <input type="number" value="1" min="1" max="50" class="quantity">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/beverage-6.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Oreo Smoothy</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">100.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/beverage-3.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Orange Juice</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">50.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/beverage-4.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Orange Lemon Tea</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">200.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+        </div>
+
+        <h2 class="title-featured-products" id="menu">D-BURGER'S MENU</h2>
+        <div class="row">
+
+            <div class="col-4">
+                <img src="/images/b5.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">chicken Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">80.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/b6.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Veg Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">40.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/b7.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Black Bun Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">150.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/b15.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">chicken Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">250.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+
+            <div class="col-4">
+                <img src="/images/b9.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">chicken Ham Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">350.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/b10.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Cup cake</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">70.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/b16.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Crispy chicken Burger</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">30.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/spicy fries (1).jpg" alt="" class="burgerimg">
+                <h4 class="burgername">cheese french Fries</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">500.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/beverage-7.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Strawberry Smoothy</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">200.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/beverage-6.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Oreo Shake</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">500.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/beverage-4.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Orange Juice</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">80.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/colddrink-1.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Lemonade</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">40.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/colddrink-2.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Mango Shake</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">110.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/colddrink-3.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Sprite</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">30.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/colddrink-13.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Coca Cola</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">30.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+            <div class="col-4">
+                <img src="/images/colddrink-5.jpg" alt="" class="burgerimg">
+                <h4 class="burgername">Strawberry Shake</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="burgerprice">110.00</p>
+                <input type="number" value="1" min="1" max="50">
+                <a class="btn trialbtn addtocartBTN">Add to cart &#8594</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- ---------------------------customize section--------------- -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/images/customize.jpg" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p class="custm-p">Hey foodies now you can customize your D-Burger's</p>
+                    <h1>customize now </h1>
+                    <small>Lets customize your D-Burger </small>
+                    <a href="/customize.html" class="btn">customize &#8594</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------testimonial--------------- -->
+    <div class="testimonial" id="about">
+        <div class="small-container">
+            <h2 class="title-featured-products">Customer Review</h2>
+            <div class="row">
+
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas explicabo enim et quo, iure
+                        impedit, facere nobis deleniti atque facilis cumque saepe nemo eveniet placeat, voluptates
+                        recusandae veritatis ut doloremque!</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <img src="/images/user-1.png" alt="">
+                    <h3>sean parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas explicabo enim et quo, iure
+                        impedit, facere nobis deleniti atque facilis cumque saepe nemo eveniet placeat, voluptates
+                        recusandae veritatis ut doloremque!</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <img src="/images/user-2.png" alt="">
+                    <h3>Mike smith</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas explicabo enim et quo, iure
+                        impedit, facere nobis deleniti atque facilis cumque saepe nemo eveniet placeat, voluptates
+                        recusandae veritatis ut doloremque!</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <img src="/images/user-3.png" alt="">
+                    <h3>Mable Joe</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ---------------------------footer--------------- -->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" alt="">
+                        <img src="/images/app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/sachin.karekar.5815"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https:twitter.com/MrSachinKarekar?t=2-sX7QgjcNSLWeJAx1qXKA&s=09"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/mr_.sachin_/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2021 - D-BURGERS website</p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
